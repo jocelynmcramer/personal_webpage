@@ -18,6 +18,9 @@ about:
 
     - text: Email
       href: mailto:jocelyn.cramer@colostate.edu
+format:
+  html:
+    toc: true
 ---
 
 [**Education:**]{.underline}

@@ -1,3 +1,6 @@
 ---
 title: "Future Work"
+format:
+  html:
+    toc: true
 ---
