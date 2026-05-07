@@ -1,0 +1,47 @@
+---
+title: "Current Research"
+---
+
+### Snow Density Variability in Lodgepole Pine (*Pinus contorta*) Forests
+
+[Objectives:]{.underline}
+
+1.  Quantify the spatial variability of snow density in lodgepole pine forests.
+
+2.  Examine correlation between snow density, snow depth, and forest structural characteristics.
+
+3.  Integrate drone-based LiDAR with empirical models to generate spatial predictions of snow depth and density.
+
+4.  Assess the implications of observed variability for snowpack estimation, hydrologic modeling, and forest management.
+
+[Study Area:]{.underline}
+
+![Figure 1. P. contorta is the primary tree species present in this area of Northern Colorado. Drone-based LiDAR flights were conducted in State Forest State Park (SFSP) as well as comparisons to nearby Rawah SNOTEL station (right). Study sites located in a similar aged stand were visited along Highway 14 (left).](images/Site%20Map.jpg)
+
+[Methods:]{.underline}
+
+-   Selected 14 upper montane *P. contorta* forest sites along Highway 14 in northern Colorado using randomly generated coordinates and conducted snowpack sampling during winter 2025.
+
+-   Measured snow depth, snow density, and snow water equivalent (SWE) around 74 sampled trees using snow probes, snow corers, GPS. In the summer forest structure measurements were collected including tree height, DBH, canopy cover, and tree spacing.
+
+-   Developed boosted regression tree (BRT) models in R to evaluate how forest structure, canopy conditions, and spatial position influenced snow depth and snow density using cross-validation and predictor importance metrics.
+
+-   Processed airborne LiDAR snow-on and snow-off datasets to derive terrain and vegetation rasters, then applied BRT models to generate spatial predictions of snow depth and density across study sites.
+
+[Results:]{.underline}
+
+![Figure 2. Snow density (kg/m3) and snow depth (m) measurements taken at the same locations. Early and late season regression lines illustrate seasonal separation in the depth–density relationship. Together the correlation is somewhat strong (R2 = 0.68). Separated by season timing the correlation strengthened (late season R2 = 0.92, and late season R2 = 0.87).](images/Figure%202.png)
+
+![Figure 3. Snow water equivalent (SWE) measurements in millimeters (mm) at the Rawah SNOTEL station (blue line), compared to observed measurements along Highway 14. The observed measurements were separated by averaging all values or averaging only midpoint values for a given day. Midpoint measurements are closer to the SNOTEL values compared to all measurements.](images/Figure%203.png)
+
+\*\*Need SWE vs. Distance to Tree Bole Figure\*\*
+
+![Figure 5. Forest structure measurements showed strong correlations between tree height and diameter at breast height (DBH), while canopy cover, tree spacing, and distance to clearings reflected dense, relatively even-aged *P. contorta* stands.](images/AppendixA3.png)
+
+-   Binary regression tree models identified canopy cover and measurement direction as the most influential controls on snow depth and snow density, with additional effects from DBH, neighboring trees, and proximity to forest clearings.
+
+-   LiDAR data shows inability to penetrate below the canopy, inhibiting the ability to measure snow depth and therefore requiring interpolation or modeling
+
+[Discussion:]{.underline}
+
+\*\*To come\*\*

@@ -1,11 +1,45 @@
 ---
-title: "personal_webpage"
+title: "Jocelyn Cramer"
+subtitle: |
+  Master's Student in Watershed Science  
+  Colorado State University  
+
+  Future Ph.D. Student (Fall 2026)
+
+image: www/me.jpg
+
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 15em
+  links:
+    - text: GitHub
+      href: https://github.com/jocelynmcramer
+
+    - text: Email
+      href: mailto:jocelyn.cramer@colostate.edu
 ---
 
-This is a Quarto website.
+[**Education:**]{.underline}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Alaska Pacific University
 
-```{r}
-1 + 1
-```
+-   B.S. Environmental Science
+
+-   B.A. Outdoor Studies
+
+Colorado State University
+
+-   *Master's in Watershed Science* (Graduation Summer 2026)
+
+[**Experience:**]{.underline}
+
+-   Laboratory + Research Technician at the University of Alaska Anchorage
+
+-   Ecologist for the U.S. Fish & Wildlife
+
+-   TA for BZ474 Stream Ecology and Biology
+
+-   TA for NR319 Introduction to Geospatial Science
+
+-   TA for NR220 Natural Resource Ecology and Measurements

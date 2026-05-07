@@ -8,12 +8,15 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: Current_Research.qmd
+        text: Current Research
+      - href: Future_Work.qmd
+        text: Future Work
 
 format:
   html:
     theme:
-      - cosmo
+      - darkly
       - brand
     css: styles.css
     toc: true
