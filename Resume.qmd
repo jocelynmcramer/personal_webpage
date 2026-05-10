@@ -1,0 +1,59 @@
+---
+title: "Resume"
+format:
+  html:
+    toc: true
+---
+
+#### Education
+
+Alaska Pacific University
+
+-   B.S. Environmental Science
+
+-   B.A. Outdoor Studies
+
+Colorado State University
+
+-   *Master's in Watershed Science* (Graduation Summer 2026)
+
+#### Experience
+
+**TA Introduction to Geospatial Science\
+***Colorado State University – Fort Collins, CO*\
+• Grade and manage 70 students\
+• Lead lab instruction and discussion
+
+**\
+TA Stream Ecology and Biology Lab** \
+*Colorado State University – Fort Collins, CO*\
+• Grade and manage 70 students\
+• Lead lab instruction and discussion
+
+\
+**Server** \
+*Pumphouse Brewery - Longmont, CO*\
+• Provided customer service in a high-volume team environment
+
+\
+**Ecologist** \
+• Contracted by U.S. Fish & Wildlife for the Natural Resource and Damage Assessment and \
+Restoration (NRDAR) to create ArcGIS maps for Alaska’s shoreline
+
+\
+**Laboratory Technician** \
+*University of Alaska Anchorage - Anchorage, AK*\
+• Analyzed South-East Alaskan tree cores for age and growth using WinDendro\
+• Measured needle surface area using WinSeedle for samples collected in the Brooks Range
+
+\
+**Research Technician** \
+*University of Alaska Anchorage - Anchorage, AK*\
+• Established and accessed remote field sites across Alaska’s Brooks Range\
+• Collected vegetation, soil, and dendrochronology samples for two NSF-funded projects\
+• Navigated using GPS, compass, and topographic maps in remote wilderness environments\
+ 
+
+#### Skills
+
+Plant identification (boreal and alpine species), field sampling methods (vegetation, soil, dendrochronology), navigation: GPS, compass, and topographic maps, GIS & spatial analysis (ArcGIS), data processing and field equipment installation, and Microsoft Office and Canvas.

@@ -23,26 +23,4 @@ format:
     toc: true
 ---
 
-[**Education:**]{.underline}
-
-Alaska Pacific University
-
--   B.S. Environmental Science
-
--   B.A. Outdoor Studies
-
-Colorado State University
-
--   *Master's in Watershed Science* (Graduation Summer 2026)
-
-[**Experience:**]{.underline}
-
--   Laboratory + Research Technician at the University of Alaska Anchorage
-
--   Ecologist for the U.S. Fish & Wildlife
-
--   TA for BZ474 Stream Ecology and Biology
-
--   TA for NR319 Introduction to Geospatial Science
-
--   TA for NR220 Natural Resource Ecology and Measurements
+I am a current master’s student in Watershed Science at Colorado State University (CSU) based in Fort Collins, Colorado, with a focus on snow processes and forest management in mountain environments. My work explores how forest structure and management decisions influence snow accumulation, melt, and downstream water resources. I’m passionate about applying field measurements, data analysis, and applied science to support resilient forest and water management in a changing climate. My research plan is to complete my M.S. at CSU in the summer of 2026 and continue onto my Ph.D. in fall of 2026, pursuing a similar topic.

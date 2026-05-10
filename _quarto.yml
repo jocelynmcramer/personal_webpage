@@ -10,8 +10,10 @@ website:
         text: Home
       - href: docs/Current_Research.html
         text: Current Research
-      - href: docs/Future_Work.html
-        text: Future Work
+      - href: docs/Resume.html
+        text: Resume
+      - href: docs/Projects_Publications
+        text: Projects + Publications
 
 format:
   html:

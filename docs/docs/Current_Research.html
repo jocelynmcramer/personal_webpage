@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Future Work – personal_webpage</title>
+<title>Current Research – personal_webpage</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,16 +93,20 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="./docs/index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Current_Research.html"> 
+    <a class="nav-link" href="./docs/Current_Research.html"> 
 <span class="menu-text">Current Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Future_Work.html" aria-current="page"> 
-<span class="menu-text">Future Work</span></a>
+    <a class="nav-link" href="./docs/Resume.html"> 
+<span class="menu-text">Resume</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./docs/Projects_Publications"> 
+<span class="menu-text">Projects + Publications</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -115,15 +119,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#snow-density-variability-in-lodgepole-pine-pinus-contorta-forests" id="toc-snow-density-variability-in-lodgepole-pine-pinus-contorta-forests" class="nav-link active" data-scroll-target="#snow-density-variability-in-lodgepole-pine-pinus-contorta-forests">Snow Density Variability in Lodgepole Pine (<em>Pinus contorta</em>) Forests</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Future Work</h1>
+<h1 class="title">Current Research</h1>
 </div>
 
 
@@ -140,8 +150,87 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="snow-density-variability-in-lodgepole-pine-pinus-contorta-forests" class="level3">
+<h3 class="anchored" data-anchor-id="snow-density-variability-in-lodgepole-pine-pinus-contorta-forests">Snow Density Variability in Lodgepole Pine (<em>Pinus contorta</em>) Forests</h3>
+<section id="objectives" class="level4">
+<h4 class="anchored" data-anchor-id="objectives"><u>Objectives</u></h4>
+<ol type="1">
+<li><p>Quantify the spatial variability of snow density in lodgepole pine forests.</p></li>
+<li><p>Examine correlation between snow density, snow depth, and forest structural characteristics.</p></li>
+<li><p>Integrate drone-based LiDAR with empirical models to generate spatial predictions of snow depth and density.</p></li>
+<li><p>Assess the implications of observed variability for snowpack estimation, hydrologic modeling, and forest management.</p></li>
+</ol>
+</section>
+<section id="study-area" class="level4">
+<h4 class="anchored" data-anchor-id="study-area"><u>Study Area</u></h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Site Map.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 1. P. contorta is the primary tree species present in this area of Northern Colorado. Drone-based LiDAR flights were conducted in State Forest State Park (SFSP) as well as comparisons to nearby Rawah SNOTEL station (right). Study sites located in a similar aged stand were visited along Highway 14 (left).</figcaption>
+</figure>
+</div>
+</section>
+<section id="methods" class="level4">
+<h4 class="anchored" data-anchor-id="methods"><u>Methods</u></h4>
+<ul>
+<li><p>Selected 14 upper montane <em>P. contorta</em> forest sites along Highway 14 in northern Colorado using randomly generated coordinates and conducted snowpack sampling during winter 2025.</p></li>
+<li><p>Measured snow depth, snow density, and snow water equivalent (SWE) around 74 sampled trees using snow probes, snow corers, GPS. In the summer forest structure measurements were collected including tree height, DBH, canopy cover, and tree spacing.</p></li>
+<li><p>Developed boosted regression tree (BRT) models in R to evaluate how forest structure, canopy conditions, and spatial position influenced snow depth and snow density using cross-validation and predictor importance metrics.</p></li>
+<li><p>Processed airborne LiDAR snow-on and snow-off datasets to derive terrain and vegetation rasters, then applied BRT models to generate spatial predictions of snow depth and density across study sites.</p></li>
+</ul>
+</section>
+<section id="results" class="level4">
+<h4 class="anchored" data-anchor-id="results"><u>Results</u></h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Figure 2.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 2. Snow density (kg/m3) and snow depth (m) measurements taken at the same locations. Early and late season regression lines illustrate seasonal separation in the depth–density relationship. Together the correlation is somewhat strong (R2 = 0.68). Separated by season timing the correlation strengthened (late season R2 = 0.92, and late season R2 = 0.87).</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Figure 3.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 3. Snow water equivalent (SWE) measurements in millimeters (mm) at the Rawah SNOTEL station (blue line), compared to observed measurements along Highway 14. The observed measurements were separated by averaging all values or averaging only midpoint values for a given day. Midpoint measurements are closer to the SNOTEL values compared to all measurements.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2443924138.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 4. (Left) Snow depth (m) measurements with average mean and standard deviation values for all data. (Right) SWE (mm) was also evaluated as average values with standard deviations for each measurement distance. All values were measured at 30 centimeter intervals. There is a clear difference between snow depth and density values within less than a meter compared to a meter away from the tree bole.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/AppendixA3.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 5. Forest structure measurements showed strong correlations between tree height and diameter at breast height (DBH), while canopy cover, tree spacing, and distance to clearings reflected dense, relatively even-aged <em>P. contorta</em> stands.</figcaption>
+</figure>
+</div>
+<ul>
+<li>Binary regression tree models identified canopy cover and measurement direction as the most influential controls on snow depth and snow density, with additional effects from DBH, neighboring trees, and proximity to forest clearings.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Control_SnowDepth_FINAL-01.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 6. Snow Depth derived from a drone-based LiDAR flight within State Forest State Park.</figcaption>
+</figure>
+</div>
+<ul>
+<li>LiDAR data shows inability to penetrate below the canopy, inhibiting the ability to measure snow depth and therefore requiring interpolation or modeling</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/BRT_Predicted_SnowDepth-01.png" class="img-fluid figure-img"></p>
+<figcaption><img src="images/clipboard-739822155.png" class="img-fluid figure-img">Figure 7. BRT Modeled snow depth (m) allows for predictions beneath the canopy where LiDAR cannot penetrate.</figcaption>
+</figure>
+</div>
+</section>
+<section id="discussion-conclusion" class="level4">
+<h4 class="anchored" data-anchor-id="discussion-conclusion"><u>Discussion + Conclusion</u></h4>
+<p>These are preliminary results for the completion of my master’s in Watershed Science Thesis Dissertation fullfilment at Colorado State University. The Discussion and Conclusion portions of this website cannot be completed due to unfinished data processing. This research and full webspage are estimated to be completed by <strong><em>July 2026</em></strong>.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
