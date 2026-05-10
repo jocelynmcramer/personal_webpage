@@ -6,22 +6,20 @@ website:
   title: "personal_webpage"
   navbar:
     left:
-      - href: docs/index.html
+      - href: index.qmd
         text: Home
-      - href: docs/Current_Research.html
+      - href: Current_Research.qmd
         text: Current Research
-      - href: docs/Resume.html
+      - href: Resume.qmd
         text: Resume
-      - href: docs/Projects_Publications
+      - href: Projects_Publications.qmd
         text: Projects + Publications
 
 format:
   html:
     theme:
       - darkly
-      - brand
     css: styles.css
     toc: true
 
 editor: visual
-

@@ -1,10 +1,9 @@
 ---
 title: "Jocelyn Cramer"
 subtitle: |
-  Watershed Science  
-  Colorado State University
+  Watershed Science at Colorado State University
 
-image: www/me.jpg
+image: images/Me.jpg
 
 about: 
   template: trestles
@@ -16,9 +15,6 @@ about:
 
     - text: Email
       href: mailto:jocelyn.cramer@colostate.edu
-format:
-  html:
-    toc: true
 ---
 
 I am a current master’s student in Watershed Science at Colorado State University (CSU) based in Fort Collins, Colorado, with a focus on snow processes and forest management in mountain environments. My work explores how forest structure and management decisions influence snow accumulation, melt, and downstream water resources. I’m passionate about applying field measurements, data analysis, and applied science to support resilient forest and water management in a changing climate. My research plan is to complete my M.S. at CSU in the summer of 2026 and continue onto my Ph.D. in fall of 2026, pursuing a similar topic.
