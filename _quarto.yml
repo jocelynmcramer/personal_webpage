@@ -6,13 +6,13 @@ website:
   title: "personal_webpage"
   navbar:
     left:
-      - href: index.qmd
+      - href: index.html
         text: Home
-      - href: Current_Research.qmd
+      - href: Current_Research.html
         text: Current Research
-      - href: Resume.qmd
+      - href: Resume.html
         text: Resume
-      - href: Projects_Publications.qmd
+      - href: Projects_Publications.html
         text: Projects + Publications
 
 format:
