@@ -1,10 +1,8 @@
 ---
 title: "Jocelyn Cramer"
 subtitle: |
-  Master's Student in Watershed Science  
-  Colorado State University  
-
-  Future Ph.D. Student (Fall 2026)
+  Watershed Science  
+  Colorado State University
 
 image: www/me.jpg
 
